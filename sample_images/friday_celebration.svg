@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#FFE4B5"/>
+  <circle cx="200" cy="100" r="50" fill="#FFD700"/>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4169E1">Happy Friday!</text>
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#8B4513">Have a wonderful weekend!</text>
+  <polygon points="160,120 180,140 160,160 140,140" fill="#FF69B4"/>
+  <polygon points="240,120 260,140 240,160 220,140" fill="#32CD32"/>
+  <polygon points="200,60 220,80 200,100 180,80" fill="#FF4500"/>
+</svg>

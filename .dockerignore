@@ -1,0 +1,32 @@
+# Binaries
+friday-bot
+friday-bot-*
+
+# Go build cache
+.cache/
+
+# Test files
+*_test.go
+
+# Documentation
+README.md
+DEPLOYMENT.md
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,3 @@
+This is a placeholder for a Friday image.
+The bot will randomly select images from this directory.
+Add your own .jpg, .png, .gif, or .webp files here.

@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  friday-bot:
+    build: .
+    container_name: friday-bot
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - CHAT_ID=${CHAT_ID}
+      - POST_HOUR=${POST_HOUR:-9}
+      - POST_MINUTE=${POST_MINUTE:-0}
+      - IMAGES_DIR=${IMAGES_DIR:-sample_images}
+      - CHECK_INTERVAL=${CHECK_INTERVAL:-30}
+      - TIMEZONE=${TIMEZONE:-UTC}
+      - DEBUG=${DEBUG:-false}
+    volumes:
+      - ./sample_images:/home/friday/sample_images:ro
+      - ./config.json:/home/friday/config.json:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # Uncomment to set specific timezone
+    # volumes:
+    #   - /etc/localtime:/etc/localtime:ro

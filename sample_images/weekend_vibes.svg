@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#87CEEB"/>
+  <ellipse cx="200" cy="80" rx="60" ry="40" fill="#FFFF00"/>
+  <path d="M 120 200 Q 200 150 280 200" stroke="#32CD32" stroke-width="8" fill="none"/>
+  <circle cx="100" cy="180" r="25" fill="#FF69B4"/>
+  <circle cx="150" cy="190" r="20" fill="#FFB6C1"/>
+  <circle cx="250" cy="185" r="22" fill="#DDA0DD"/>
+  <circle cx="300" cy="195" r="18" fill="#98FB98"/>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#483D8B">Weekend Vibes!</text>
+  <text x="200" y="275" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2F4F4F">Time to relax and enjoy</text>
+</svg>
