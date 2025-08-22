@@ -1,0 +1,8 @@
+{
+    "chat_id": 0,
+    "post_hour": 9,
+    "post_minute": 0,
+    "images_dir": "sample_images",
+    "check_interval_minutes": 30,
+    "timezone": "UTC"
+}
